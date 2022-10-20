@@ -24,3 +24,5 @@ e.g.
     - a cluster that is the result of 1+ splits
 - art
     - a cluster that is not worth throwing away as noise, but which has a lot of (usually high-amplitude) artifact around the spikes in the WaveformView. 
+- ampdrift
+    - cluster that has some amplitude drift (often which coincides w/ recordings)
