@@ -13,15 +13,15 @@
 
 4. Install VSCode and the following extensions: Python, Remote - SSH
 
-4. Install Git for Windows. Accept all defaults, except:
+5. Install Git for Windows. Accept all defaults, except:
     - Make sure to select the option that adds a git-bash profile to Windows Terminal. 
     - Make sure to select Visual Studio Code as your default editor for resolving merge conflicts. 
     - Enable support for pseudo-consoles. 
 
-5. Optional: To use Git Bash as your default shell:
+6. Optional: To use Git Bash as your default shell:
     - Open Windows Terminal. Go to Settings. Set Default Profile to Git Bash. Restart Windows Terminal. 
 
-6. Optional: Install Mamba: **conda install mamba -n base -c conda-forge** 
+7. Optional: Install Mamba: **conda install mamba -n base -c conda-forge** 
     - Configure your shells to be aware of mamba: conda activate base; mamba init -all
     - You can now choose to use mamba as a drop-in replacement for the conda command pretty much anywhere, often with significantly improved performance. 
 
