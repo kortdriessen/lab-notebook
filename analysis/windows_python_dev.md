@@ -4,11 +4,11 @@
     - Set LocalMachine execution policy: Open a PowerShell prompt as Administrator, run **Set-ExecutionPolicy -ExecutionPolicy Unrestricted**
 
 
-2. Install Miniforge
+2. Install [Miniforge](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe)
     - Accept all defaults. 
 
 
-3. Open Windows Terminal. In PowerShell, follow [these]( https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe) instructions to run **conda init** and set **auto_activate_base** to false. 
+3. Open Windows Terminal. In PowerShell, follow [these](https://github.com/robotology/robotology-superbuild/blob/master/doc/install-miniforge.md#windows) instructions to run **conda init** and set **auto_activate_base** to false. 
     - Then run **conda init -all**, so you can use conda from Git Bash later on. 
 
 4. Install VSCode and the following extensions: Python, Remote - SSH
