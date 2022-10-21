@@ -1,15 +1,15 @@
 # Setting Up Windows Computer for Python Development
 
 1. Install Windows Terminal
-    - Set LocalMachine execution policy: Open a PowerShell prompt as Administrator, run 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted'
+    - Set LocalMachine execution policy: Open a PowerShell prompt as Administrator, run **Set-ExecutionPolicy -ExecutionPolicy Unrestricted**
 
 
 2. Install Miniforge
     - Accept all defaults. 
 
 
-3. Open Windows Terminal. In PowerShell, follow these instructions to run conda init and set auto_activate_base to false. 
-    - Then run conda init -all, so you can use conda from Git Bash later on. 
+3. Open Windows Terminal. In PowerShell, follow [these]( https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe) instructions to run **conda init** and set **auto_activate_base** to false. 
+    - Then run **conda init -all**, so you can use conda from Git Bash later on. 
 
 4. Install VSCode and the following extensions: Python, Remote - SSH
 
@@ -21,7 +21,7 @@
 5. Optional: To use Git Bash as your default shell:
     - Open Windows Terminal. Go to Settings. Set Default Profile to Git Bash. Restart Windows Terminal. 
 
-6. Optional: Install Mamba: conda install mamba -n base -c conda-forge 
+6. Optional: Install Mamba: **conda install mamba -n base -c conda-forge** 
     - Configure your shells to be aware of mamba: conda activate base; mamba init -all
     - You can now choose to use mamba as a drop-in replacement for the conda command pretty much anywhere, often with significantly improved performance. 
 
