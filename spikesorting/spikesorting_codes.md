@@ -26,3 +26,5 @@ e.g.
     - a cluster that is not worth throwing away as noise, but which has a lot of (usually high-amplitude) artifact around the spikes in the WaveformView. 
 - ampdrift
     - cluster that has some amplitude drift (often which coincides w/ recordings)
+- pawake
+    - 'possible artifact - wake' indicates that the unit seems mostly good and has a good waveform, but is potentially contaminated by artifact during wake - amplitude view is primary judge of this (often firing rate is heavily modulated to be higher in wake as well). 
