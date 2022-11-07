@@ -17,7 +17,7 @@ e.g.
 - few
     - A cluster that has very few units, but for some reason wanted to keep (e.g. has some interesting modulation or a very good waveform)
 - noisy
-    - based on amplitude view and firing rate view... basically really hitting up against the noise floor
+    - based on amplitude view and firing rate view... basically really hitting up against the noise floor. Also used to implicate a very low-amplitude cluster generally (which would make it closer to the noise floor). 
 - merged
     - a cluster that is the result of 1+ merges
 - split
