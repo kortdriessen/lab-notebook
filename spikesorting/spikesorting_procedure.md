@@ -5,7 +5,7 @@
 2. If cluster is not noise, decide if KS label is correct. 
 
 3. Once cluster has been labelled as good or mua, check for splits and merges
-
+    - NOTE: generally, if you've decided that the cluster is MUA, it is generally OK to ignore splits and merges unless there is something very obvious. Splits and merges are, by far, most important for single units (i.e. units labelled by the user as 'good'). 
 4. Add notes
 
 # Most efficient steps:
