@@ -24,5 +24,5 @@ Principles:
 3. You can split on the amplitude view! This is helpful in removing wake-induced artifact!
 
 Phy Gui Arrangement: 
-- Waveform view and trace view to their own monitor
+- Trace view to its own monitor (and perhaps waveform view if monitor is small)
 - Set TraceView color scheme to cluster group
