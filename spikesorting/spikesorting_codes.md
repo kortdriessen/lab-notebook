@@ -28,3 +28,6 @@ e.g.
     - cluster that has some amplitude drift (often which coincides w/ recordings)
 - pawake
     - 'possible artifact - wake' indicates that the unit seems mostly good and has a good waveform, but is potentially contaminated by artifact during wake - amplitude view is primary judge of this (often firing rate is heavily modulated to be higher in wake as well). 
+- ch_x:
+    - for a cluster where the channel field is for some reason incorrect. e.g. if a cluster were listed as being on channel-4, but it really were on channel-5, this code would be ch_5.
+
